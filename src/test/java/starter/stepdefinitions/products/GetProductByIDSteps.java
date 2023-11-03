@@ -21,7 +21,7 @@ public class GetProductByIDSteps {
         getProductByID.sendGetRequestForGetProductByID();
     }
 
-    @And("I should receive the details of the product associated with the provided ID")
+    @Then("I should receive the details of the product associated with the provided ID")
     public void receiveDetailValidDataProductWithTheProvidedID(){
         getProductByID.receiveDetailValidDataProductWithTheProvidedID();
     }
