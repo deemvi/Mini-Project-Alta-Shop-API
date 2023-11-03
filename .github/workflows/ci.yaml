@@ -1,4 +1,4 @@
-name: Testing API MINI Project
+name: Mini project API Testing
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
       - name: Build and Test with Maven
         run: mvn --batch-mode --update-snapshots verify
   test:
-    name: API Testing
+    name: TEST API
     needs: build
     runs-on: ubuntu-latest
     steps:
