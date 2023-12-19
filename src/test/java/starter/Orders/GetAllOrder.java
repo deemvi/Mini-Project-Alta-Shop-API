@@ -24,7 +24,6 @@ public class GetAllOrder {
                 .header("Authorization", "Bearer " + data)
                 .header("Content-Type", "application/json")
                 .get(setApiEndpointGetAllOrder());
-
     }
 
     @Step("I receive valid data for get all order")

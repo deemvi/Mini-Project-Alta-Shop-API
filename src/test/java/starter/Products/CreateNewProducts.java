@@ -35,7 +35,7 @@ public class CreateNewProducts {
     }
     @Step("I should receive a status code of 200")
     public void receiveStatusCode200() {
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(100));
     }
     @Step("I should receive the details of the newly created product")
     public void receiveDetailsOfTheNewlyCreatedProduct() {
